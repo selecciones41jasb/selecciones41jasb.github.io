@@ -1,0 +1,125 @@
+body{
+    /* background-image: url('background.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 100%;
+    margin: 40px auto;
+    background: rgb(204,200,200);
+}
+
+table.list{
+    text-align:justify;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:50px 0 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(70, 6, 233);
+}
+
+input[type="reset"]:hover{
+    background: rgb(81, 9, 235);
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: blanchedalmond ;
+}
+
+html,
+		body {
+		  height: 100%;
+		}
+
+		body {
+		  display: flex;
+		  align-items: center;
+		  padding-top: 40px;
+		  padding-bottom: 40px;
+		  background-color: #f5f5f5;
+		}
+
+		.form-signin {
+		  width: 100%;
+		  max-width: 330px;
+		  padding: 15px;
+		  margin: auto;
+		}
+		.form-signin .checkbox {
+		  font-weight: 400;
+		}
+		.form-signin .form-control {
+		  position: relative;
+		  box-sizing: border-box;
+		  height: auto;
+		  padding: 10px;
+		  font-size: 16px;
+		}
+		.form-signin .form-control:focus {
+		  z-index: 2;
+		}
+		.form-signin input[type="email"] {
+		  margin-bottom: -1px;
+		  border-bottom-right-radius: 0;
+		  border-bottom-left-radius: 0;
+		}
+		.form-signin input[type="password"] {
+		  margin-bottom: 10px;
+		  border-top-left-radius: 0;
+		  border-top-right-radius: 0;
+		}
+		#login-panel .btn-google{
+			background-color: rgb(219,68,55) !important;
+			color: white !important;
+		}
+
+		.btn-facebook{
+			background-color: rgb(219,68,55) !important;
+			color: white !important;
+		}
+
